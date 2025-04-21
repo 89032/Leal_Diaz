@@ -17,6 +17,16 @@
   <link rel="stylesheet" href="/styles/estilos.css">
   <link rel="stylesheet" href="/styles/reparar.css">
   <link rel="stylesheet" href="/styles/componentes.css">
+  <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="styles.css">
   <style>
     .ie-panel {
       display: none;
@@ -34,128 +44,437 @@
       display: block;
     }
   </style>
+
 </head>
-
 <body>
-  <header class="section page-header m-0">
-    <!-- RD Navbar-->
-    <div class="rd-navbar-wrap">
-      <nav class="rd-navbar rd-navbar-corporate" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
-        data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
-        data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static"
-        data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static"
-        data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
-        data-xxl-stick-up-offset="106px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
-        <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse">
-          <span></span>
-        </div>
-        <div class="rd-navbar-aside-outer bg-transparent  ">
-          <div class="rd-navbar-aside heading-1  w-100  p-1 m-0">
-            <!-- RD Navbar Panel-->
-            <div class="rd-navbar-panel">
+<!-- Header -->
+<header class="section page-header m-0">
+  <!-- RD Navbar-->
+  <div class="rd-navbar-wrap">
+    <nav class="rd-navbar rd-navbar-corporate" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+      data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
+      data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static"
+      data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static"
+      data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
+      data-xxl-stick-up-offset="106px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+      <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse">
+        <span></span>
+      </div>
+      <div class="rd-navbar-aside-outer bg-transparent  ">
+        <div class="rd-navbar-aside heading-1  w-100  p-1 m-0">
+          <!-- RD Navbar Panel-->
+          <div class="rd-navbar-panel">
 
-              <!-- RD Navbar Toggle-->
-              <button class="rd-navbar-toggle " data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-            </div>
-            <div class="rd-navbar-aside-right rd-navbar-collapse  ">
-              <!-- RD Navbar Brand-->
-              <div class="rd-navbar-brand">
-                <!--Brand--><a class="brand" href="index.html"><img src="" alt="" width="225" height="18" /></a>
-              </div>
-              <h4 class="text-center titulos1"> CORPORATIVO LEAL DIAZ </h4>
-              <ul class="rd-navbar-corporate-contacts">
-
-              </ul><a class="button   " href="#"> CONOCENOS </a>
-            </div>
+            <!-- RD Navbar Toggle-->
+            <button class="rd-navbar-toggle " data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
           </div>
-
-        </div>
-        <div class="rd-navbar-main-outer  barra-nav">
-          <div class="rd-navbar-main nav-main">
-            <div class="rd-navbar-nav-wrap">
-              <ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
-                <li><a class="icon fa fa-facebook" href="#"> </a></li>
-                <li><a class="icon fa fa-twitter" href="#"></a></li>
-                <li><a class="icon fa fa-google-plus" href="#"></a></li>
-                <li><a class="icon fa fa-instagram" href="#"></a></li>
-              </ul>
-              <!-- RD Navbar Nav-->
-              <ul class="rd-navbar-nav">
-                <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">INICIO</a>
-                </li>
-                <li class="rd-nav-item"><a class="rd-nav-link" href="/SRC/about.html">ACERCA DE NOSOTROS </a>
-                </li>
-                <li class="rd-nav-item"><a class="rd-nav-link" href="/SRC/typography.html">ARTICULOS</a>
-                </li>
-                <li class="rd-nav-item"><a class="rd-nav-link" href="/SRC/services.html">SERVICIOS</a>
-                </li>
-                <li class="rd-nav-item"><a class="rd-nav-link" href="/SRC/contact.html">CONTACTOS</a>
-                <li class="rd-nav-item"><a class="rd-nav-link" href="/SRC/config.html">CONFIGURACION</a>
-                </li>
-
-                </li>
-              </ul>
+          <div class="rd-navbar-aside-right rd-navbar-collapse  ">
+            <!-- RD Navbar Brand-->
+            <div class="rd-navbar-brand">
+              <!--Brand--><a class="brand" href="index.html"><img src="" alt="" width="225" height="18" /></a>
             </div>
+            <h4 class="text-center titulos1"> CORPORATIVO LEAL DIAZ </h4>
+            <ul class="rd-navbar-corporate-contacts">
+
+            </ul><a class="button   " href="#"> CONOCENOS </a>
           </div>
         </div>
-      </nav>
-    </div>
-  </header>
 
-  <mai>
-    <header>
-      <!-- Intro settings -->
-      <style>
-        /* Default height for small devices */
-        #intro-example {
-          height: 400px;
-        }
+      </div>
+      <div class="rd-navbar-main-outer  barra-nav">
+        <div class="rd-navbar-main nav-main">
+          <div class="rd-navbar-nav-wrap">
+            <ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
+              <li><a class="icon fa fa-facebook" href="#"> </a></li>
+              <li><a class="icon fa fa-twitter" href="#"></a></li>
+              <li><a class="icon fa fa-google-plus" href="#"></a></li>
+              <li><a class="icon fa fa-instagram" href="#"></a></li>
+            </ul>
+            <!-- RD Navbar Nav-->
+            <ul class="rd-navbar-nav">
+              <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">INICIO</a>
+              </li>
+              <li class="rd-nav-item"><a class="rd-nav-link" href="/SRC/about.html">ACERCA DE NOSOTROS </a>
+              </li>
+              <li class="rd-nav-item"><a class="rd-nav-link" href="/SRC/typography.html">ARTICULOS</a>
+              </li>
+              <li class="rd-nav-item"><a class="rd-nav-link" href="/SRC/services.html">SERVICIOS</a>
+              </li>
+              <li class="rd-nav-item"><a class="rd-nav-link" href="/SRC/contact.html">CONTACTOS</a>
+              <li class="rd-nav-item"><a class="rd-nav-link" href="/SRC/config.html">CONFIGURACION</a>
+              </li>
 
-        /* Height for devices larger than 992px */
-        @media (min-width: 992px) {
-          #intro-example {
-            height: 600px;
-          }
-        }
-      </style>
-
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container-fluid">
-          <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarExample01"
-            aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-          </button>
-
-        </div>
-      </nav>
-      <!-- Navbar -->
-
-      <!-- Background image -->
-      <div id="intro-example" class="p-5 text-center bg-image" style="background-image: url('/img/beautiful.jpg');">
-        <div class="mask" style="background-color: rgba(204, 195, 195, 0.7);">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <div class="text-white">
-              <h3 class="mb-3 tittle">FIRMA DE ABOGADOS DE NICARAGUA </h3>
-              <h5 class="mb-4">Leal Diaz la mejor desiocion en servicios juridicos </h5>
-              <a data-mdb-ripple-init class="btn btn-outline-light btn-lg m-2 "
-                href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button" rel="nofollow" target="_blank">Start
-                tutorial</a>
-              <a data-mdb-ripple-init class="btn btn-outline-light btn-lg m-2"
-                href="https://mdbootstrap.com/docs/standard/" target="_blank" role="button">Download MDB UI KIT</a>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-      <!-- Background image -->
-    </header>
+    </nav>
+  </div>
+</header>
 
+<!-- Mobile Menu -->
+<div class="mobile-menu">
+  <div class="mobile-menu-header">
+    <div class="logo">
+      <a href="index.html">
+        <h1>BlogMaster<span>.</span></h1>
+      </a>
+    </div>
+    <div class="mobile-menu-close">
+      <i class="fas fa-times"></i>
+    </div>
+  </div>
+  <nav class="mobile-nav">
+    <ul class="mobile-nav-list">
+      <li class="mobile-nav-item"><a href="#" class="mobile-nav-link active">Ana Sayfa</a></li>
+      <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Kategoriler</a></li>
+      <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Popüler Yazılar</a></li>
+      <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Yazarlar</a></li>
+      <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Hakkımızda</a></li>
+      <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">İletişim</a></li>
+    </ul>
+  </nav>
+</div>
 
-    
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="featured-label">Öne Çıkan İçerik</div>
+      <h2 class="hero-title">Modern Teknolojinin İş Hayatındaki Yeri ve Önemi</h2>
+      <p class="hero-excerpt">Günümüz iş dünyasında teknolojinin rolü ve şirketlerin dijital dönüşüme nasıl adapte olduğuna dair kapsamlı bir analiz.</p>
+      <div class="hero-meta">
+        <div class="author">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Yazar" class="author-img">
+          <span class="author-name">Ahmet Yılmaz</span>
+        </div>
+        <div class="post-date">
+          <i class="far fa-calendar-alt"></i>
+          <span>10 Nisan 2023</span>
+        </div>
+        <div class="post-read-time">
+          <i class="far fa-clock"></i>
+          <span>10 dk okuma</span>
+        </div>
+      </div>
+      <a href="#" class="btn-primary">Makaleyi Oku</a>
+    </div>
+  </div>
+</section>
 
+<!-- Category Section -->
+<section class="categories">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Popüler Kategoriler</h2>
+      <a href="#" class="view-all">Tümünü Gör <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="category-cards">
+      <div class="category-card">
+        <div class="category-icon">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <h3 class="category-title">Teknoloji</h3>
+        <p class="category-count">48 makale</p>
+      </div>
+      <div class="category-card">
+        <div class="category-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h3 class="category-title">İş Dünyası</h3>
+        <p class="category-count">32 makale</p>
+      </div>
+      <div class="category-card">
+        <div class="category-icon">
+          <i class="fas fa-paint-brush"></i>
+        </div>
+        <h3 class="category-title">Tasarım</h3>
+        <p class="category-count">24 makale</p>
+      </div>
+      <div class="category-card">
+        <div class="category-icon">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h3 class="category-title">Yapay Zeka</h3>
+        <p class="category-count">19 makale</p>
+      </div>
+      <div class="category-card">
+        <div class="category-icon">
+          <i class="fas fa-globe"></i>
+        </div>
+        <h3 class="category-title">Dünya</h3>
+        <p class="category-count">27 makale</p>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- Latest Posts Section -->
+<section class="latest-posts">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">En Son Yazılar</h2>
+      <a href="#" class="view-all">Tümünü Gör <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="posts-grid">
+      <!-- Post Card 1 -->
+      <div class="post-card">
+        <div class="post-image">
+          <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" alt="Blog Post">
+          <div class="post-category">Teknoloji</div>
+        </div>
+        <div class="post-content">
+          <h3 class="post-title">Yazılım Geliştirme Süreçlerinde DevOps Yaklaşımı</h3>
+          <p class="post-excerpt">DevOps metodolojisiyle yazılım geliştirme ve operasyon süreçlerini nasıl birleştirebileceğinizi öğrenin.</p>
+          <div class="post-meta">
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Yazar" class="author-img">
+              <span class="author-name">Mehmet Demir</span>
+            </div>
+            <div class="post-date">8 Nisan 2023</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Post Card 2 -->
+      <div class="post-card">
+        <div class="post-image">
+          <img src="https://images.unsplash.com/photo-1504639725590-34d94c6ea77b" alt="Blog Post">
+          <div class="post-category">İş Dünyası</div>
+        </div>
+        <div class="post-content">
+          <h3 class="post-title">Uzaktan Çalışmanın Geleceği ve Şirketlere Etkisi</h3>
+          <p class="post-excerpt">Pandemi sonrası uzaktan çalışma modelinin şirket kültürüne ve verimliliğe olan etkilerini inceliyoruz.</p>
+          <div class="post-meta">
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Yazar" class="author-img">
+              <span class="author-name">Ayşe Kaya</span>
+            </div>
+            <div class="post-date">5 Nisan 2023</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Post Card 3 -->
+      <div class="post-card">
+        <div class="post-image">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Blog Post">
+          <div class="post-category">Yapay Zeka</div>
+        </div>
+        <div class="post-content">
+          <h3 class="post-title">Yapay Zeka ve Makine Öğrenmesindeki Son Gelişmeler</h3>
+          <p class="post-excerpt">Yapay zeka teknolojilerinin günlük hayatımızı nasıl değiştirdiğine dair güncel bir değerlendirme.</p>
+          <div class="post-meta">
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Yazar" class="author-img">
+              <span class="author-name">Ali Yıldız</span>
+            </div>
+            <div class="post-date">1 Nisan 2023</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Post Card 4 -->
+      <div class="post-card">
+        <div class="post-image">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0" alt="Blog Post">
+          <div class="post-category">İş Dünyası</div>
+        </div>
+        <div class="post-content">
+          <h3 class="post-title">Girişimciler İçin Finansal Yönetim Stratejileri</h3>
+          <p class="post-excerpt">Yeni bir iş kurarken dikkat edilmesi gereken finansal yönetim ipuçları ve stratejileri.</p>
+          <div class="post-meta">
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Yazar" class="author-img">
+              <span class="author-name">Emre Şahin</span>
+            </div>
+            <div class="post-date">29 Mart 2023</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Post Card 5 -->
+      <div class="post-card">
+        <div class="post-image">
+          <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334" alt="Blog Post">
+          <div class="post-category">Tasarım</div>
+        </div>
+        <div class="post-content">
+          <h3 class="post-title">Web Tasarımda 2023 Trendleri</h3>
+          <p class="post-excerpt">Bu yılın öne çıkan web tasarım trendlerini ve kullanıcı deneyiminde yeni yaklaşımları keşfedin.</p>
+          <div class="post-meta">
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Yazar" class="author-img">
+              <span class="author-name">Zeynep Arslan</span>
+            </div>
+            <div class="post-date">25 Mart 2023</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Post Card 6 -->
+      <div class="post-card">
+        <div class="post-image">
+          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa" alt="Blog Post">
+          <div class="post-category">Teknoloji</div>
+        </div>
+        <div class="post-content">
+          <h3 class="post-title">Siber Güvenlik: Şirketler İçin Temel Önlemler</h3>
+          <p class="post-excerpt">Dijital dünyada şirketlerin alması gereken siber güvenlik önlemleri ve veri koruma stratejileri.</p>
+          <div class="post-meta">
+            <div class="author">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Yazar" class="author-img">
+              <span class="author-name">Kemal Özkan</span>
+            </div>
+            <div class="post-date">20 Mart 2023</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="load-more">
+      <button class="btn-secondary">Daha Fazla Yükle</button>
+    </div>
+  </div>
+</section>
 
-  </mai </body>
+<!-- Featured Author Section -->
+<section class="featured-author">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Ayın Yazarı</h2>
+    </div>
+    <div class="author-spotlight">
+      <div class="author-image">
+        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=400&h=400&q=80" alt="Ayın Yazarı">
+      </div>
+      <div class="author-details">
+        <h3 class="author-name">Prof. Dr. Ahmet Yılmaz</h3>
+        <p class="author-title">Teknoloji Yazarı & Akademisyen</p>
+        <div class="author-stats">
+          <div class="stat">
+            <span class="stat-number">156</span>
+            <span class="stat-label">Makale</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">14.2K</span>
+            <span class="stat-label">Takipçi</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">4.8</span>
+            <span class="stat-label">Değerlendirme</span>
+          </div>
+        </div>
+        <p class="author-bio">
+          Prof. Dr. Ahmet Yılmaz, 20 yılı aşkın akademik kariyerinde teknoloji ve inovasyon alanlarında öncü çalışmalar yapmış, 5 kitap yayınlamış ve dünya çapında saygın dergilerde 100'den fazla makale yayınlamıştır. Yapay zeka ve dijital dönüşüm konularında uluslararası bir otorite olarak kabul edilmektedir.
+        </p>
+        <div class="author-social">
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-medium-m"></i></a>
+          <a href="#" class="social-link"><i class="fas fa-globe"></i></a>
+        </div>
+        <a href="#" class="btn-primary">Tüm Yazılarını Gör</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter-content">
+      <h2 class="newsletter-title">En Son İçeriklerden Haberdar Olun</h2>
+      <p class="newsletter-text">Haftalık bültenimize abone olarak son makalelerimiz, özel içeriklerimiz ve sektör haberleri hakkında bilgi sahibi olun.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="E-posta adresiniz" required class="newsletter-input">
+        <button type="submit" class="btn-primary">Abone Ol</button>
+      </form>
+      <p class="newsletter-privacy">Kişisel verileriniz <a href="#">Gizlilik Politikamıza</a> uygun olarak korunacaktır.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-about">
+        <div class="logo">
+          <h2>BlogMaster<span>.</span></h2>
+        </div>
+        <p class="about-text">
+          BlogMaster, teknoloji, iş dünyası, tasarım ve daha birçok alanda uzman yazarların özgün içeriklerini buluşturduğu bir blog platformudur. Güncel bilgiler, derinlemesine analizler ve sektör trendlerini takip edin.
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h3 class="footer-title">Hızlı Bağlantılar</h3>
+        <ul class="footer-list">
+          <li><a href="#">Ana Sayfa</a></li>
+          <li><a href="#">Hakkımızda</a></li>
+          <li><a href="#">Kategoriler</a></li>
+          <li><a href="#">Popüler Yazılar</a></li>
+          <li><a href="#">Yazarlar</a></li>
+          <li><a href="#">İletişim</a></li>
+        </ul>
+      </div>
+      <div class="footer-categories">
+        <h3 class="footer-title">Kategoriler</h3>
+        <ul class="footer-list">
+          <li><a href="#">Teknoloji</a></li>
+          <li><a href="#">İş Dünyası</a></li>
+          <li><a href="#">Tasarım</a></li>
+          <li><a href="#">Yapay Zeka</a></li>
+          <li><a href="#">Dünya</a></li>
+          <li><a href="#">Yaşam</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3 class="footer-title">İletişim</h3>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Levent, İstanbul</span>
+          </li>
+          <li class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>+90 212 555 55 55</span>
+          </li>
+          <li class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>info@blogmaster.com</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="copyright">
+        © 2023 BlogMaster. Tüm hakları saklıdır.
+      </div>
+      <div class="footer-bottom-links">
+        <a href="#">Şartlar ve Koşullar</a>
+        <a href="#">Gizlilik Politikası</a>
+        <a href="#">Çerez Politikası</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top Button -->
+<a href="#" class="back-to-top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>            
   <script src="//js/anexos.js"></script>
 
 
